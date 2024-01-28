@@ -7,8 +7,8 @@ const Carousel = (props) => {
     const [answers, setAnswers] = useState(["some random python library", "Answer 2", "Answer 3"]);
 
     if(props != null){
-        setQuestions(Object.keys(props.data));
-        setAnswers(Object.values(props.data));
+        //setQuestions(Object.keys(props.data));
+        //setAnswers(Object.values(props.data));
     }
 
     const [currentIndex, setCurrentIndex] = useState(0);
